@@ -16,14 +16,13 @@ import org.axonframework.commandhandling.model.AggregateLifecycle.apply
 import org.axonframework.commandhandling.model.AggregateLifecycle.markDeleted
 import org.axonframework.eventsourcing.EventSourcingHandler
 import org.axonframework.spring.stereotype.Aggregate
-import java.util.UUID
 
 
 @Aggregate
 class UserAggregate() {
 
     @AggregateIdentifier
-    private lateinit var id: UUID
+    private lateinit var id: String
 
     private var emailValidationCode: String? = null
 

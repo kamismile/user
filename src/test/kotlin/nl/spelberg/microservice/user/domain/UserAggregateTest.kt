@@ -21,7 +21,7 @@ import org.mockito.Mockito.mock
 import java.util.UUID
 
 object UserAggregateTest : Spek({
-    val id = UUID.randomUUID()
+    val id = UUID.randomUUID().toString()
     val username = "myNameIs"
 
     describe("UserAggregate lifecycle") {

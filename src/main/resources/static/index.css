@@ -1,0 +1,36 @@
+h1, h2, h3, h4, h5, h6, p, span, a, li, td, th {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0.5rem 1rem;
+    background-color: cornsilk;
+}
+
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 1rem;
+    background-color: antiquewhite;
+    overflow: auto;
+}
+
+header ul li {
+    float: left;
+    margin: 0.1rem;
+    padding: 0.2rem 1rem;
+    background-color: bisque;
+    border: 0.1rem solid burlywood;
+    cursor: pointer;
+}
+
+header ul li:hover {
+    background-color: burlywood;
+}
+
